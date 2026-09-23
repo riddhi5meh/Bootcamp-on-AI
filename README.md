@@ -1,310 +1,170 @@
-# 🐍 Python Learning & Data Analysis Repository
+<div align="center">
 
-Welcome to my Python learning repository!
+# 🚀 Python & Machine Learning Journey
 
-This repository contains my hands-on practice with **Python programming, NumPy, Pandas, and Matplotlib**. It documents my progress while learning Python fundamentals and exploring commonly used libraries for **data analysis and numerical computing**.
+### Learning Python • Data Analysis • Visualization • Machine Learning
 
-The repository includes practice programs, assignments, array operations, randomly generated datasets, and statistical calculations.
+A collection of my hands-on notebooks, assignments, and ML implementations created while learning and experimenting with Python and its data science ecosystem.
 
----
-
-## 📌 Repository Overview
-
-| Notebook                    | Description                                       | Status        |
-| --------------------------- | ------------------------------------------------- | ------------- |
-| `bootcamp_assignment.ipynb` | Python fundamentals and programming exercises     | ✅ In Progress |
-| `numPy.ipynb`               | NumPy arrays, datasets and statistical operations | ✅ In Progress |
-| `pandas.ipynb`              | Pandas practice and data manipulation             | 🚧 Upcoming   |
-| `matplotlib.ipynb`          | Data visualization using Matplotlib               | 🚧 Upcoming   |
+</div>
 
 ---
 
-## 🛠️ Technologies Used
+## 👩‍💻 About This Repository
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python\&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-4D77CF?logo=numpy\&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas\&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-orange)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter\&logoColor=white)
+This repository documents my practical learning journey from **Python fundamentals** to **Machine Learning**.
+
+It includes exercises and mini-projects using **NumPy, Pandas, Matplotlib and Scikit-learn**, covering data manipulation, visualization, regression, classification, clustering and basic NLP.
 
 ---
 
-# 📚 What's Inside?
+## 🛠️ Tech Stack
 
-## 🐍 Python Bootcamp Assignment
+<p align="center">
 
-The `bootcamp_assignment.ipynb` notebook contains exercises focused on strengthening basic Python programming concepts.
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-### Programs Covered
-
-**1. Finding Even Numbers**
-
-The program:
-
-* Accepts numbers from the user
-* Stores them inside a list
-* Iterates through the list
-* Identifies even numbers using the modulo operator
-
-Concepts practiced:
-
-`Lists` • `Loops` • `Input/Output` • `Conditional Statements`
-
-**2. String Reversal**
-
-The notebook also contains string manipulation exercises that:
-
-* Reverse an entire string
-* Split a sentence into words
-* Reverse the order of words
-* Join the words back together
-
-Concepts practiced:
-
-`Strings` • `Slicing` • `split()` • `join()` • `Lists`
+</p>
 
 ---
 
-## 🔢 NumPy Practice
+## 📚 Repository Contents
 
-The `numPy.ipynb` notebook contains exercises for understanding numerical computing and multidimensional arrays using **NumPy**.
-
-### 1️⃣ NumPy Array & Square Calculation
-
-A NumPy array containing numbers from **1 to 100** is generated using:
-
-```python
-np.arange()
-```
-
-The square of every element is then calculated using vectorized NumPy operations.
-
-### 2️⃣ Cricket Runs Dataset 🏏
-
-A small cricket dataset is generated using NumPy.
-
-**Players:**
-
-* Sachin
-* Virat
-* Rohit
-* Yuvraj
-
-**Matches:**
-
-* IPL 2025
-* IPL 2021
-* IPL 2020
-
-Random runs are generated for every player across different matches using:
-
-```python
-np.random.randint()
-```
-
-This exercise demonstrates:
-
-`NumPy Arrays` • `Random Data Generation` • `2D Arrays`
+| 📓 Notebook | 🔍 What it Covers |
+|---|---|
+| `bootcamp_assignment.ipynb` | Python fundamentals, lists, loops and string operations |
+| `numPy.ipynb` | NumPy arrays, random datasets and statistical operations |
+| `pandas.ipynb` | DataFrames, data manipulation and analysis |
+| `matplotlib.ipynb` | Data visualization using Matplotlib |
+| `linearreg_electronics.ipynb` | Power consumption prediction using Linear Regression |
+| `DecisionTree.ipynb` | Student performance classification using Decision Trees |
+| `unsupervisedlearning.ipynb` | Customer segmentation using K-Means Clustering |
+| `email.ipynb` | Email spam detection using Naive Bayes |
+| `ml.ipynb` | Data preprocessing and Decision Tree classification |
 
 ---
 
-## 👩‍💼 Employee Dataset
+## 🐍 Python & Data Analysis
 
-A random dataset for **10 employees** is generated containing:
+### 🔢 NumPy
+Practiced numerical computing and dataset operations including:
 
-| Feature       | Description                 |
-| ------------- | --------------------------- |
-| Age           | Employee age                |
-| Sales         | Sales performance           |
-| Working Hours | Number of working hours     |
-| Performance   | Employee performance rating |
+- Arrays and multidimensional arrays
+- Random dataset generation
+- Mean, Median, Mode & Standard Deviation
+- Row-wise and column-wise operations
+- Basic statistical analysis
 
-The different columns are combined into a dataset using:
+### 🐼 Pandas
+Used Pandas for working with structured datasets and practicing **DataFrame operations, exploration and data manipulation**.
 
-```python
-np.column_stack()
-```
-
-### 📊 Statistical Analysis
-
-The **Sales** column is analyzed by calculating:
-
-* 📈 Mean
-* 📊 Median
-* 🔁 Mode
-* 📉 Standard Deviation
-
-NumPy functions used include:
-
-```python
-np.mean()
-np.median()
-np.std()
-np.unique()
-```
-
-This exercise demonstrates how NumPy can be used to generate and analyze a simple real-world-style dataset.
+### 📊 Matplotlib
+Explored basic **data visualization** techniques for understanding patterns and relationships within datasets.
 
 ---
 
-## 🧮 2D Array Analysis
+## 🤖 Machine Learning
 
-A **4 × 4 NumPy array** is created to understand operations along different axes.
+### 📈 Linear Regression
+**Power Consumption Prediction**
 
-The following calculations are performed:
+Used Linear Regression to predict power consumption based on operating hours.
 
-### Row-wise Average
-
-```python
-np.mean(arr, axis=1)
-```
-
-### Column-wise Average
-
-```python
-np.mean(arr, axis=0)
-```
-
-### Standard Deviation
-
-```python
-np.std(arr)
-```
-
-This helped me understand how the `axis` parameter works while performing calculations on multidimensional arrays.
+`LinearRegression` • `MSE` • `R² Score`
 
 ---
 
-## 🐼 Pandas
+### 🌳 Decision Tree
+**Student Performance Prediction**
 
-`pandas.ipynb`
+Used a Decision Tree Classifier to predict student performance and evaluated the model using classification metrics.
 
-This notebook is reserved for my upcoming Pandas practice.
-
-Topics planned include:
-
-* Creating DataFrames
-* Reading datasets
-* Selecting rows and columns
-* Data cleaning
-* Handling missing values
-* Filtering data
-* Statistical analysis
-* Sorting and grouping data
+`DecisionTreeClassifier` • `Accuracy` • `Confusion Matrix` • `Classification Report`
 
 ---
 
-## 📊 Matplotlib
+### 🎯 K-Means Clustering
+**Customer Segmentation**
 
-`matplotlib.ipynb`
+Applied unsupervised learning to group customers based on **Annual Income and Spending Score**.
 
-This notebook is reserved for data visualization practice using Matplotlib.
-
-Topics planned include:
-
-* Line plots
-* Bar graphs
-* Scatter plots
-* Histograms
-* Pie charts
-* Labels and legends
-* Plot customization
+`KMeans` • `Clusters` • `Centroids` • `Elbow Method`
 
 ---
 
-# 🧠 Concepts Practiced
+### 📧 Email Spam Detection
+**NLP + Naive Bayes**
 
-Through this repository, I am working on:
+Built a basic text classification model to classify emails as **Spam 🚨 or Safe 🟢**.
+
+`CountVectorizer` • `MultinomialNB` • `Text Classification`
+
+---
+
+### 🔍 Data Preprocessing & Classification
+
+Practiced a basic end-to-end ML workflow including:
+
+`Data Exploration → Missing Values → Feature Selection → Train/Test Split → Model Training → Evaluation`
+
+---
+
+## 🧠 Concepts I've Practiced
 
 ```text
-Python Fundamentals
-       │
-       ├── Lists
-       ├── Loops
-       ├── Conditional Statements
-       ├── Strings
-       │
-       ▼
-     NumPy
-       │
-       ├── Arrays
-       ├── Random Data Generation
-       ├── Multidimensional Arrays
-       ├── Axis Operations
-       └── Statistical Analysis
-       │
-       ▼
-     Pandas
-       │
-       └── Data Analysis
-       │
-       ▼
-   Matplotlib
-       │
-       └── Data Visualization
+Python
+  │
+  ├── NumPy
+  │     └── Numerical & Statistical Computing
+  │
+  ├── Pandas
+  │     └── Data Analysis
+  │
+  ├── Matplotlib
+  │     └── Data Visualization
+  │
+  └── Machine Learning
+        │
+        ├── Regression
+        │     └── Linear Regression
+        │
+        ├── Classification
+        │     ├── Decision Tree
+        │     └── Naive Bayes
+        │
+        └── Clustering
+              └── K-Means
 ```
 
 ---
 
-## 📂 Repository Structure
+## 🎯 Learning Journey
 
-```text
-Python-Learning/
-│
-├── bootcamp_assignment.ipynb
-│   └── Python fundamentals & assignments
-│
-├── numPy.ipynb
-│   └── NumPy arrays, datasets & statistics
-│
-├── pandas.ipynb
-│   └── Pandas practice
-│
-├── matplotlib.ipynb
-│   └── Data visualization practice
-│
-└── README.md
-```
+**Python Fundamentals** → **NumPy** → **Pandas** → **Data Visualization** → **Data Preprocessing** → **Machine Learning**
+
+I will continue updating this repository as I learn new concepts, algorithms and build more projects.
 
 ---
 
-## 🎯 Learning Goals
-
-The goal of this repository is to build a strong foundation in Python and gradually move toward **data analysis and machine learning**.
-
-My learning path:
-
-**Python → NumPy → Pandas → Matplotlib → Data Analysis → Machine Learning**
-
----
-
-## 🚀 Future Updates
-
-As I continue learning, I plan to add:
-
-* More NumPy exercises
-* Pandas data manipulation
-* Data cleaning exercises
-* Exploratory Data Analysis (EDA)
-* Matplotlib visualizations
-* Real-world datasets
-* Mini data analysis projects
-* Machine Learning basics
-
----
+<div align="center">
 
 ## 👩‍💻 Author
 
-**Riddhi Mehrotra**
+### Riddhi Mehrotra
 
-B.Tech Computer Science & Engineering Student
+**B.Tech Computer Science & Engineering**
 
-Currently exploring **Python, Data Analysis, Machine Learning and Cloud Technologies**.
+Exploring **Python • Data Analysis • Machine Learning • Cloud Technologies**
 
----
+<br>
 
-### ⭐ Thanks for visiting!
+⭐ **Thanks for visiting my repository!**
 
-This repository will continue to grow as I learn and experiment with new Python concepts.
+*Learning one notebook at a time.* 🚀
 
-If you find the repository useful, feel free to **star ⭐ the repository**.
+</div>
