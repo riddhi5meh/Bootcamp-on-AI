@@ -1,153 +1,245 @@
 <div align="center">
 
-# 🚀 Python & Machine Learning Journey
+# 🚀 AI & Machine Learning Bootcamp
 
-### Learning Python • Data Analysis • Visualization • Machine Learning
+### Python • Data Analysis • Machine Learning • NLP • Computer Vision
 
-A collection of my hands-on notebooks, assignments, and ML implementations created while learning and experimenting with Python and its data science ecosystem.
+A collection of my hands-on assignments, experiments, and mini-projects completed during my **AI & Machine Learning Bootcamp**.
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 </div>
 
 ---
 
-## 👩‍💻 About This Repository
+## 📚 Bootcamp Journey
 
-This repository documents my practical learning journey from **Python fundamentals** to **Machine Learning**.
-
-It includes exercises and mini-projects using **NumPy, Pandas, Matplotlib and Scikit-learn**, covering data manipulation, visualization, regression, classification, clustering and basic NLP.
-
----
-
-## 🛠️ Tech Stack
-
-<p align="center">
-
-![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
-![Scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-</p>
+| Day | Focus | Topics |
+|---|---|---|
+| 🟢 **Day 1** | Python & NumPy | Python Basics, Arrays, Statistics |
+| 🔵 **Day 2** | Data Analysis | Pandas, Matplotlib, Visualization |
+| 🟣 **Day 3** | Machine Learning | Regression, Classification, Clustering |
+| 🟠 **Day 4** | NLP & Computer Vision | Text Processing, OpenCV, YOLO |
 
 ---
 
-## 📚 Repository Contents
+# 🟢 Day 1 — Python & NumPy
 
-| 📓 Notebook | 🔍 What it Covers |
-|---|---|
-| `bootcamp_assignment.ipynb` | Python fundamentals, lists, loops and string operations |
-| `numPy.ipynb` | NumPy arrays, random datasets and statistical operations |
-| `pandas.ipynb` | DataFrames, data manipulation and analysis |
-| `matplotlib.ipynb` | Data visualization using Matplotlib |
-| `linearreg_electronics.ipynb` | Power consumption prediction using Linear Regression |
-| `DecisionTree.ipynb` | Student performance classification using Decision Trees |
-| `unsupervisedlearning.ipynb` | Customer segmentation using K-Means Clustering |
-| `email.ipynb` | Email spam detection using Naive Bayes |
-| `ml.ipynb` | Data preprocessing and Decision Tree classification |
+### 🐍 Python Fundamentals
+📓 `bootcamp_assignment.ipynb`
 
----
+Practiced core Python concepts including:
 
-## 🐍 Python & Data Analysis
+- Lists & Loops
+- Conditional Statements
+- String Manipulation
+- User Input
+- Basic Problem Solving
 
 ### 🔢 NumPy
-Practiced numerical computing and dataset operations including:
+📓 `numPy.ipynb`
 
-- Arrays and multidimensional arrays
-- Random dataset generation
+Worked with numerical computing and datasets using:
+
+- NumPy Arrays
+- Random Data Generation
+- 2D & Multidimensional Arrays
 - Mean, Median, Mode & Standard Deviation
-- Row-wise and column-wise operations
-- Basic statistical analysis
-
-### 🐼 Pandas
-Used Pandas for working with structured datasets and practicing **DataFrame operations, exploration and data manipulation**.
-
-### 📊 Matplotlib
-Explored basic **data visualization** techniques for understanding patterns and relationships within datasets.
+- Row-wise & Column-wise Operations
 
 ---
 
-## 🤖 Machine Learning
+# 🔵 Day 2 — Data Analysis & Visualization
+
+### 🐼 Pandas
+📓 `pandas.ipynb`
+
+Explored structured datasets using Pandas for:
+
+- DataFrames
+- Data Manipulation
+- Data Exploration
+- Filtering & Analysis
+
+### 📊 Matplotlib
+📓 `matplotlib.ipynb`
+
+Practiced data visualization and understanding patterns in datasets using different plots and graphs.
+
+---
+
+# 🟣 Day 3 — Machine Learning
+
+Day 3 focused on implementing basic **Supervised and Unsupervised Machine Learning algorithms**.
 
 ### 📈 Linear Regression
-**Power Consumption Prediction**
+📓 `linearreg_electronics.ipynb`
 
-Used Linear Regression to predict power consumption based on operating hours.
+Predicted **power consumption based on operating hours** using Linear Regression.
 
 `LinearRegression` • `MSE` • `R² Score`
 
----
-
 ### 🌳 Decision Tree
-**Student Performance Prediction**
+📓 `DecisionTree.ipynb`
 
-Used a Decision Tree Classifier to predict student performance and evaluated the model using classification metrics.
+Built a Decision Tree model for **student performance classification**.
 
-`DecisionTreeClassifier` • `Accuracy` • `Confusion Matrix` • `Classification Report`
-
----
+`DecisionTreeClassifier` • `Accuracy` • `Confusion Matrix`
 
 ### 🎯 K-Means Clustering
-**Customer Segmentation**
+📓 `unsupervisedlearning.ipynb`
 
-Applied unsupervised learning to group customers based on **Annual Income and Spending Score**.
+Performed **customer segmentation** based on annual income and spending score.
 
-`KMeans` • `Clusters` • `Centroids` • `Elbow Method`
+`KMeans` • `Clustering` • `Centroids` • `Elbow Method`
 
----
+### 📧 Email Classification
+📓 `email.ipynb`
 
-### 📧 Email Spam Detection
-**NLP + Naive Bayes**
+Created a basic email classification model using:
 
-Built a basic text classification model to classify emails as **Spam 🚨 or Safe 🟢**.
+`CountVectorizer` • `Multinomial Naive Bayes`
 
-`CountVectorizer` • `MultinomialNB` • `Text Classification`
+### 🤖 ML Classification
+📓 `ml.ipynb`
 
----
+Practiced an end-to-end ML workflow:
 
-### 🔍 Data Preprocessing & Classification
-
-Practiced a basic end-to-end ML workflow including:
-
-`Data Exploration → Missing Values → Feature Selection → Train/Test Split → Model Training → Evaluation`
+`Data Exploration → Preprocessing → Train/Test Split → Model Training → Evaluation`
 
 ---
 
-## 🧠 Concepts I've Practiced
+# 🟠 Day 4 — NLP & Computer Vision
+
+Day 4 focused on building small practical applications using **Natural Language Processing and Computer Vision**.
+
+### ☁️ Word Cloud Generator
+📓 `D4_wordcloud.ipynb`
+
+Created a Word Cloud from technology-related text using:
+
+`NLTK` • `Tokenization` • `Stopwords` • `WordCloud` • `Matplotlib`
+
+---
+
+### 📧 Spam Detector
+📓 `D4_spamdetector.ipynb`
+
+Built a simple spam message classifier using Machine Learning.
 
 ```text
-Python
-  │
-  ├── NumPy
-  │     └── Numerical & Statistical Computing
-  │
-  ├── Pandas
-  │     └── Data Analysis
-  │
-  ├── Matplotlib
-  │     └── Data Visualization
-  │
-  └── Machine Learning
-        │
-        ├── Regression
-        │     └── Linear Regression
-        │
-        ├── Classification
-        │     ├── Decision Tree
-        │     └── Naive Bayes
-        │
-        └── Clustering
-              └── K-Means
+Message → CountVectorizer → Naive Bayes → Spam / Ham
+```
+
+`Scikit-learn` • `CountVectorizer` • `MultinomialNB`
+
+---
+
+### 😊 Sentiment Analyzer
+📓 `D4_sentimentanslysis.ipynb`
+
+Created a real-time text sentiment analyzer that classifies user input as:
+
+**🙂 Positive • 😐 Neutral • 🙁 Negative**
+
+It also calculates **polarity and subjectivity scores** using `TextBlob`.
+
+---
+
+### 📄 AI Resume Scanner
+📓 `D4_resumescan.ipynb`
+
+Used **spaCy NLP** to extract useful information from resume text.
+
+The scanner identifies:
+
+- 👤 Person Names
+- 🏢 Organizations
+- 📍 Locations
+- 📅 Dates
+- 🔑 Important Keywords & Nouns
+
+`spaCy` • `Named Entity Recognition (NER)` • `NLP`
+
+---
+
+### 🖼️ OpenCV Image Processing
+📓 `D4_opencvipynb`
+
+Practiced basic Computer Vision operations including:
+
+- Reading Images
+- Image Resizing
+- Image Flipping
+- Image Cropping
+- Displaying Images
+
+`OpenCV` • `NumPy`
+
+---
+
+### 🎥 Real-Time Object Detection
+📓 `D4_objectdetection.ipynb`
+
+Built a **real-time object detection and counting system** using webcam input.
+
+```text
+Webcam
+   ↓
+Video Frames
+   ↓
+YOLOv8
+   ↓
+Object Detection
+   ↓
+Bounding Boxes
+   ↓
+Live Object Count
+```
+
+The project uses the lightweight **YOLOv8 Nano** model for real-time detection.
+
+`YOLOv8` • `Ultralytics` • `OpenCV` • `Computer Vision`
+
+---
+
+## 🧠 My Learning Path
+
+```text
+Day 1
+Python + NumPy
+      ↓
+Day 2
+Pandas + Visualization
+      ↓
+Day 3
+Machine Learning
+      ↓
+Day 4
+NLP + Computer Vision
+      ↓
+🚀 Building AI Applications
 ```
 
 ---
 
-## 🎯 Learning Journey
+## 🛠️ Skills & Libraries
 
-**Python Fundamentals** → **NumPy** → **Pandas** → **Data Visualization** → **Data Preprocessing** → **Machine Learning**
+`Python` • `NumPy` • `Pandas` • `Matplotlib` • `Scikit-learn` • `NLTK` • `TextBlob` • `spaCy` • `OpenCV` • `YOLOv8`
 
-I will continue updating this repository as I learn new concepts, algorithms and build more projects.
+---
+
+## 🎯 Bootcamp Progress
+
+- [x] 🟢 Day 1 — Python & NumPy
+- [x] 🔵 Day 2 — Data Analysis & Visualization
+- [x] 🟣 Day 3 — Machine Learning
+- [x] 🟠 Day 4 — NLP & Computer Vision
 
 ---
 
@@ -159,12 +251,12 @@ I will continue updating this repository as I learn new concepts, algorithms and
 
 **B.Tech Computer Science & Engineering**
 
-Exploring **Python • Data Analysis • Machine Learning • Cloud Technologies**
+Exploring **AI • Machine Learning • Data Analysis • Cloud Technologies**
 
-<br>
+---
 
-⭐ **Thanks for visiting my repository!**
+### ⭐ Thanks for visiting!
 
-*Learning one notebook at a time.* 🚀
+*Learning → Building → Experimenting → Improving* 🚀
 
 </div>
