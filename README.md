@@ -24,7 +24,8 @@ A collection of my hands-on assignments, experiments, and mini-projects complete
 | 🟢 **Day 1** | Python & NumPy | Python Basics, Arrays, Statistics |
 | 🔵 **Day 2** | Data Analysis | Pandas, Matplotlib, Visualization |
 | 🟣 **Day 3** | Machine Learning | Regression, Classification, Clustering |
-| 🟠 **Day 4** | NLP & Computer Vision | Text Processing, OpenCV, YOLO |
+| 🟠 **Day 4** | NLP & Computer Vision | NLP, OpenCV, YOLO, Text Processing |
+| ⭐ **Mini Project** | Image Processing | OpenCV Image Studio |
 
 ---
 
@@ -48,7 +49,7 @@ Worked with numerical computing and datasets using:
 
 - NumPy Arrays
 - Random Data Generation
-- 2D & Multidimensional Arrays
+- Multidimensional Arrays
 - Mean, Median, Mode & Standard Deviation
 - Row-wise & Column-wise Operations
 
@@ -59,152 +60,157 @@ Worked with numerical computing and datasets using:
 ### 🐼 Pandas
 📓 `pandas.ipynb`
 
-Explored structured datasets using Pandas for:
-
-- DataFrames
-- Data Manipulation
-- Data Exploration
-- Filtering & Analysis
+Worked with structured datasets using **Pandas** for DataFrames, data manipulation, filtering and analysis.
 
 ### 📊 Matplotlib
 📓 `matplotlib.ipynb`
 
-Practiced data visualization and understanding patterns in datasets using different plots and graphs.
+Practiced **data visualization** and explored different ways of representing and understanding data using graphs.
 
 ---
 
 # 🟣 Day 3 — Machine Learning
 
-Day 3 focused on implementing basic **Supervised and Unsupervised Machine Learning algorithms**.
+Day 3 focused on **Supervised and Unsupervised Machine Learning**.
 
 ### 📈 Linear Regression
 📓 `linearreg_electronics.ipynb`
 
-Predicted **power consumption based on operating hours** using Linear Regression.
+Predicted power consumption based on operating hours.
 
 `LinearRegression` • `MSE` • `R² Score`
 
 ### 🌳 Decision Tree
 📓 `DecisionTree.ipynb`
 
-Built a Decision Tree model for **student performance classification**.
+Built a Decision Tree model for student performance classification.
 
 `DecisionTreeClassifier` • `Accuracy` • `Confusion Matrix`
 
 ### 🎯 K-Means Clustering
 📓 `unsupervisedlearning.ipynb`
 
-Performed **customer segmentation** based on annual income and spending score.
+Performed customer segmentation based on annual income and spending score.
 
 `KMeans` • `Clustering` • `Centroids` • `Elbow Method`
 
 ### 📧 Email Classification
 📓 `email.ipynb`
 
-Created a basic email classification model using:
+Created an email classification model using:
 
 `CountVectorizer` • `Multinomial Naive Bayes`
 
 ### 🤖 ML Classification
 📓 `ml.ipynb`
 
-Practiced an end-to-end ML workflow:
+Practiced the complete basic ML workflow:
 
-`Data Exploration → Preprocessing → Train/Test Split → Model Training → Evaluation`
+`Data Exploration → Preprocessing → Train/Test Split → Training → Evaluation`
 
 ---
 
 # 🟠 Day 4 — NLP & Computer Vision
 
-Day 4 focused on building small practical applications using **Natural Language Processing and Computer Vision**.
+Day 4 focused on building practical applications using **Natural Language Processing and Computer Vision**.
 
 ### ☁️ Word Cloud Generator
 📓 `D4_wordcloud.ipynb`
 
-Created a Word Cloud from technology-related text using:
+Generated a Word Cloud from text using:
 
-`NLTK` • `Tokenization` • `Stopwords` • `WordCloud` • `Matplotlib`
-
----
+`NLTK` • `Tokenization` • `Stopwords` • `WordCloud`
 
 ### 📧 Spam Detector
 📓 `D4_spamdetector.ipynb`
 
-Built a simple spam message classifier using Machine Learning.
+Built a simple spam message classifier.
 
-```text
-Message → CountVectorizer → Naive Bayes → Spam / Ham
-```
-
-`Scikit-learn` • `CountVectorizer` • `MultinomialNB`
-
----
+`CountVectorizer` • `MultinomialNB` • `Scikit-learn`
 
 ### 😊 Sentiment Analyzer
 📓 `D4_sentimentanslysis.ipynb`
 
-Created a real-time text sentiment analyzer that classifies user input as:
+Created a text sentiment analyzer that identifies:
 
 **🙂 Positive • 😐 Neutral • 🙁 Negative**
 
-It also calculates **polarity and subjectivity scores** using `TextBlob`.
-
----
+`TextBlob` • `Polarity` • `Subjectivity`
 
 ### 📄 AI Resume Scanner
 📓 `D4_resumescan.ipynb`
 
-Used **spaCy NLP** to extract useful information from resume text.
+Used NLP to extract useful information from resume text.
 
-The scanner identifies:
+`spaCy` • `NER` • `Keywords` • `NLP`
 
-- 👤 Person Names
-- 🏢 Organizations
-- 📍 Locations
-- 📅 Dates
-- 🔑 Important Keywords & Nouns
+### 🖼️ OpenCV
+📓 `D4_opencvipynb.ipynb`
 
-`spaCy` • `Named Entity Recognition (NER)` • `NLP`
-
----
-
-### 🖼️ OpenCV Image Processing
-📓 `D4_opencvipynb`
-
-Practiced basic Computer Vision operations including:
-
-- Reading Images
-- Image Resizing
-- Image Flipping
-- Image Cropping
-- Displaying Images
+Practiced image manipulation and basic Computer Vision operations using:
 
 `OpenCV` • `NumPy`
-
----
 
 ### 🎥 Real-Time Object Detection
 📓 `D4_objectdetection.ipynb`
 
-Built a **real-time object detection and counting system** using webcam input.
-
-```text
-Webcam
-   ↓
-Video Frames
-   ↓
-YOLOv8
-   ↓
-Object Detection
-   ↓
-Bounding Boxes
-   ↓
-Live Object Count
-```
-
-The project uses the lightweight **YOLOv8 Nano** model for real-time detection.
+Built a real-time object detection and counting system using **YOLOv8**.
 
 `YOLOv8` • `Ultralytics` • `OpenCV` • `Computer Vision`
+
+---
+
+# ⭐ Mini Project — OpenCV Image Studio
+
+### 🎨 Image Processing Mini Project
+📓 `imageprocessing_miniproject.ipynb`
+
+Built an interactive **OpenCV Image Studio** that applies multiple image-processing effects and transformations to an image.
+
+### ✨ Features
+
+| Feature | Description |
+|---|---|
+| 🖼️ Resize | Changes image dimensions |
+| ⚫ Grayscale | Converts image to grayscale |
+| 🌫️ Blur | Applies Gaussian Blur |
+| 🔍 Edge Detection | Detects edges using Canny |
+| ✏️ Pencil Sketch | Converts image into a sketch effect |
+| 🎨 Cartoon Effect | Creates a cartoon-style image |
+| ☀️ Brightness | Enhances image brightness |
+| ↔️ Horizontal Flip | Flips image horizontally |
+| ↕️ Vertical Flip | Flips image vertically |
+| 🔄 Rotation | Rotates image by 45° |
+| 🏷️ Watermark | Adds text to the image |
+| 💾 Save Output | Saves processed images as PNG |
+
+### 🔄 Project Workflow
+
+```text
+             Input Image
+                  │
+                  ▼
+          OpenCV Image Studio
+                  │
+       ┌──────────┼──────────┐
+       ▼          ▼          ▼
+   Grayscale     Blur      Resize
+       │          │          │
+       ├──────────┼──────────┤
+       ▼          ▼          ▼
+     Edges      Sketch     Cartoon
+       │          │          │
+       └──────────┼──────────┘
+                  ▼
+           Processed Image
+                  │
+                  ▼
+              Save PNG
+```
+
+### 🛠️ Libraries Used
+
+`OpenCV` • `NumPy` • `Matplotlib`
 
 ---
 
@@ -223,6 +229,9 @@ Machine Learning
 Day 4
 NLP + Computer Vision
       ↓
+⭐ Mini Project
+OpenCV Image Studio
+      ↓
 🚀 Building AI Applications
 ```
 
@@ -240,6 +249,7 @@ NLP + Computer Vision
 - [x] 🔵 Day 2 — Data Analysis & Visualization
 - [x] 🟣 Day 3 — Machine Learning
 - [x] 🟠 Day 4 — NLP & Computer Vision
+- [x] ⭐ Mini Project — OpenCV Image Studio
 
 ---
 
@@ -257,6 +267,6 @@ Exploring **AI • Machine Learning • Data Analysis • Cloud Technologies**
 
 ### ⭐ Thanks for visiting!
 
-*Learning → Building → Experimenting → Improving* 🚀
+**Learn → Practice → Build → Improve 🚀**
 
 </div>
